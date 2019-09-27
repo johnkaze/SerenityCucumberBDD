@@ -1,0 +1,11 @@
+
+mvn clean install
+
+mvn clean install -Denvironment=prod
+
+mvn clean install -Denvironment=prod -Dcucumber.options="--tags @Smoke"
+
+mvn clean install -Denvironment=prod -Dcucumber.options="--tags @Regression"
+
+
+
